@@ -1,9 +1,13 @@
 # Fremde Grafiken
 Zu folgenden Grafiken liegen uns leider keine Lizenzinformationen vor. Wir besitzen keine Rechte an ihnen und können entsprechend auch keine erteilen:
-* imgs/tilesheets/AceSet-Hospital.png
+
 * imgs/tilesheets/dungeon.png
 * imgs/tilesheets/jap_wall_set.png
+
+## Milkian
+Diese Grafiken wurden von https://www.deviantart.com/milkian erstellt
 * imgs/tilesheets/tilesets_deviant_milkian_1.png
+* imgs/tilesheets/AceSet-Hospital.png
 
 # Unsere Grafiken.
 Alles andere Lizensieren wir als CERT (cert.ccc.de) unter der CC-BY-SA
