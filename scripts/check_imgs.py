@@ -6,6 +6,7 @@ import os
 BASE_DIR = 'imgs'
 COMPOSE_TILESHEETS = True
 TILESHEET_WIDTH = 512
+TILESHEET_HEIGTH = 2048
 
 class Row():
     def __init__(self, width=TILESHEET_WIDTH, height=32):
@@ -19,6 +20,8 @@ class Row():
         if (self.remainingWidth  - x) < 0:
             raise Exception('ImageTooLarge')
         self.height = max(self.height, y)
+        if self.height > TILESHEET_HEIGTH:
+            raise Exception("Tilesheet full")
         self.remainingWidth = self.remainingWidth - x
         self.sprites.append(Img.convert(mode='RGBA'))
         return self.remainingWidth
@@ -33,14 +36,14 @@ class Row():
         return row
 
 class Spritesheet():
-    def __init__(self, width=TILESHEET_WIDTH):
+    def __init__(self, width=TILESHEET_WIDTH, height=TILESHEET_HEIGTH):
         self.width = width
-        self.height = 0
+        self.height = height
         self.rows = []
 
     def append(self, Img):
         x,y = Img.size
-        self.height += y
+        # self.height += y
         self.rows.append(Img)
 
     def render(self):
