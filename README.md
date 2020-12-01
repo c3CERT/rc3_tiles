@@ -1,5 +1,5 @@
 # From cert.ccc.de with love
-This are our tiles/sprites for the rc3 workadventure.
+This are our over 250 individual tiles/sprites for the rc3 workadventure.
 
 * Composed tilesets are located in imgs/tilesheets
 * Sets ending with _set are deprecated, please don't use them anymore.
@@ -12,6 +12,7 @@ It checks all image dimensions and compiles a tilesheet for every directory if w
 
 # Usage
 We recommend to use our compiled tilesheets instead of picking indivual sprites, but it's up to you.
+They are safe to use, no existing tiles will me replaced or moved inside the sheet.
 
 ## cert_safety
 We provide a special cert_safety tileset for everyone to keep their virtual space as safe as possible.
@@ -43,3 +44,6 @@ Mate bottles+crates, coffee...
 
 ## misc
 everything left.
+
+# testing 
+please don't use this, its only purpose is testing of new sprites before releasing them.
