@@ -60,7 +60,7 @@ if __name__ == "__main__":
     print('Absolute path:', os.getcwd() + '/imgs')
     for root, dirs, files in os.walk(BASE_DIR):
         for file in files:
-         if file.endswith('.png'):
+         if file.lower().endswith('.png'):
           x,y = Image.open(os.path.join(root, file)).size
           if not(x % 32 == y % 32 == 0 and x <= TILESHEET_WIDTH):
               sys.exit("%s has wrong dimensions." % file)
