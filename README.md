@@ -42,6 +42,21 @@ rc3 related sprites like posters.
 ## food_and_drink
 Mate bottles+crates, coffee...
 
+## airport
+Taxiway markers and info terminals plus a soyuz capsule.
+
+## atari
+Desktop icons of the atari.
+
+## doors
+Doors in different types and colors.
+
+## retro
+Do you need a cathode monitor? Here you go!
+
+## wintiles
+Icons and windows from Windows 3.11
+
 ## misc
 everything left.
 
