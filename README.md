@@ -18,32 +18,20 @@ They are safe to use, no existing tiles will me replaced or moved inside the she
 We provide a special cert_safety tileset for everyone to keep their virtual space as safe as possible.
 Properly secured world may be CERTified by us.
 
-## c3gelb
-cyber hygiene is as important as washing your real hands, we got you covered.
-
-## doors
-A variety of different doors.
-
-## furniture
-You need a desk + chairs, pick one!
-
-## storage
-shelves + boxes
-
-## leipzig_messe
-In case your missing the glasshalle
-
-## c3_deko
-You're looking for some iconic sprites from previous ccc events? This tileset may contain what you're looking for.
-
-## rc3
-rc3 related sprites like posters.
-
-## food_and_drink
-Mate bottles+crates, coffee...
-
-## misc
-everything left.
-
-# testing 
-please don't use this, its only purpose is testing of new sprites before releasing them.
+| Tileset | Description |
+| --- | --- |
+| airport | Taxiway markers and info terminals plus a soyuz capsule. |
+| atari | Desktop icons of the atari. |
+| c3_deko | You're looking for some iconic sprites from previous ccc events? This tileset may contain what you're looking for. |
+| c3gelb | Cyber hygiene is as important as washing your real hands, we got you covered |
+| cert | Everything CERT-related |
+| doors | A variety of different doors |
+| food_and_drink | Mate bottles+crates, coffee... |
+| furniture | You need a desk + chairs, pick one! |
+| leipzig_messe | In case your missing the glasshalle |
+| rc3 | rC3 related sprites like posters |
+| retro | Do you need a cathode monitor? Here you go! |
+| storage | Shelves + boxes |
+| wintiles | Icons and windows from Windows 3.11 |
+| misc | Everything left. |
+| testing  | Please don't use this, its only purpose is testing of new sprites before releasing them. |
